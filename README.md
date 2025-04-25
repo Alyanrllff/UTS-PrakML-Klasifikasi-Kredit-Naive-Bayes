@@ -20,9 +20,9 @@ Data dibagi menjadi dua bagian :
   Tujuannya untuk menghindari overfitting dan mengetahui performa model pada data baru.
 ### 4. Pembuatan dan Pelatihan Model
 - Karena menggunakan naive bayes, maka GaussianNB cocok untuk membuat data numerik hasil encoding.
--  Model dibuat menggunakan GaussianNB, lalu dilatih menggunakan .fit(X_train, y_train)
+-  Model dibuat menggunakan GaussianNB, lalu dilatih menggunakan **.fit(X_train, y_train)**
 ### 5.Prediksi
-Setelah model dilatih, selanjutnya model digunakan untuk memprediksi pada data testing, apakah masuk kategori layak (1) atau tidak layak (2). Model diprediksi menggunakan .predict(X_test)
+Setelah model dilatih, selanjutnya model digunakan untuk memprediksi pada data testing, apakah masuk kategori layak (1) atau tidak layak (2). Model diprediksi menggunakan **.predict(X_test)**
 
 ### 6. Evaluasi Model
 Terakhir, kita cek seberapa bagus model dengan melihat :
@@ -30,6 +30,7 @@ Terakhir, kita cek seberapa bagus model dengan melihat :
 - Confusion Matrix : Menunjukan jumlah diprediksi apakah layak (1) dan tidak layak (0) tiap kategori
 - Classification Report : Agar lebih detail bisa dilihat juga precision, recall, sama f1-score
 
+  
 
 
 
